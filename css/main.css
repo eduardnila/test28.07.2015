@@ -1,0 +1,81 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+body {
+	margin: 0;
+	padding: 0;
+	background-color: purple;
+	font-family: 'Georgia', sand-serif;
+}
+
+#header {
+	margin: 0 auto;
+	width: 450px;
+	height: 200px;
+	background: transparent url('../pict/logo.jpg') top left no-repeat;
+	background-size: 100% 100%;
+}
+
+.titlu_site {
+	font-family: font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	color: green;
+	left: 305px;
+	position: relative;
+	top: 170px;
+}
+
+#container {
+	background-color: blue;
+	margin: 0 auto;
+	width: 650px;
+	padding: 20px 10px 0 10px;
+}
+
+#content {
+	background-color: grey;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#menu {
+	height: 25px;
+	background-color: magenta;
+	margin: 0 10px;
+	padding: 5px 0;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 2px;
+	height: 25px;
+}
+
+#menu ul li {
+	list-style: none;
+	display: inline;
+}
+
+#menu ul li a:link, #menu ul li a:active, #menu ul li a:visited {
+	color: blue;
+	padding: 10px 7px 10px 7px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#menu ul li a:hover {
+	color: red;
+	background-color: orange;
+}
+
+#col_st {
+	float: left;
+	width: 50%;
+}
+
+#col_dr {
+	float: left;
+	width: 50%;
+}
+
+#col_clear {
+	clear: both;
+}
